@@ -1,0 +1,13 @@
+OASISFormat: 0.3
+Name:        sdmmc_analyzer
+Version:     0.1
+Synopsis:    GHGSat science code (production)
+Authors:     Xiphos Systems Corporation - Berke Durak
+License:     MPL
+Plugins:     DevFiles (0.3)
+
+Executable sdmmc_analyzer
+  Path:       .
+  BuildTools: ocamlbuild
+  MainIs:     sdmmc_analyzer.ml
+  CompiledObject: best
