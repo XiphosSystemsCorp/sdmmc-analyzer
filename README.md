@@ -7,7 +7,7 @@ Analyze SD/MMC transactions captured using e.g. Saelae Logic's logic analyzers.
 Connect the SD breakout board to the analyzer using the following pinout:
 
 Wire   | Bit   | Signal  |
-=======|=======|=========|
+-------|-------|---------|
 Black  | Bit 0 | Dat0    |
 Brown  | Bit 1 | Dat1    |
 Red    | Bit 2 | Dat2    |
